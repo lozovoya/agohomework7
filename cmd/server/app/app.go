@@ -1,10 +1,10 @@
 package app
 
 import (
-	avia "agohomework7/pkg/avia/v1"
 	"context"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/jackc/pgx/v4/pgxpool"
+	avia "github.com/lozovoya/agohomework7/pkg/avia/v1"
 	"log"
 	"sync"
 	"time"

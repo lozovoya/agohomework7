@@ -1,10 +1,10 @@
 package main
 
 import (
-	"agohomework7/cmd/server/app"
-	avia "agohomework7/pkg/avia/v1"
 	"context"
 	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/lozovoya/agohomework7/cmd/server/app"
+	avia "github.com/lozovoya/agohomework7/pkg/avia/v1"
 	"google.golang.org/grpc"
 	"log"
 	"net"

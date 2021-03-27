@@ -1,9 +1,9 @@
 package main
 
 import (
-	avia "agohomework7/pkg/avia/v1"
 	"context"
 	"github.com/golang/protobuf/ptypes"
+	avia "github.com/lozovoya/agohomework7/pkg/avia/v1"
 	"google.golang.org/grpc"
 	"io"
 	"log"
